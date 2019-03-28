@@ -1,0 +1,2 @@
+qplot(x = Var1, y = Var2, data = melt(cor(basedados, use = "p")), 
+      fill = value, geom = "tile") + scale_fill_gradient2(limits = c(-1, 1))
